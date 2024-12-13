@@ -1,6 +1,4 @@
-// RecipeResults.js
 import React from "react";
-import { GridLoader } from "react-spinners";
 import { Info, Clock, MapPin, Replace } from "lucide-react";
 
 const RecipeResults = ({ recipes }) => {

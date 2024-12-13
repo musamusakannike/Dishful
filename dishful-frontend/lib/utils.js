@@ -6,7 +6,7 @@ export function cn(...inputs) {
 }
 
 // const API_URL = "http://localhost:8080/api/v1";
-const API_URL = "https://dishful-server.onrender.com/api/v1";
+const API_URL = "https://dishful.onrender.com/api/v1";
 
 export const apiRequest = async (
   endpoint,

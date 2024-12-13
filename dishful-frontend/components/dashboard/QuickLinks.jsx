@@ -8,14 +8,14 @@ function QuickLinks() {
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
       {links.map((link) => (
         <div
           key={link.title}
-          className="flex items-center p-4 bg-green-200 rounded-md shadow-sm cursor-pointer hover:bg-green-300"
+          className="flex items-center p-6 bg-green-200 rounded-lg shadow-md cursor-pointer hover:bg-green-300 transition-all"
         >
           {link.icon}
-          <span className="ml-2 text-lg font-medium">{link.title}</span>
+          <span className="ml-4 text-lg font-medium">{link.title}</span>
         </div>
       ))}
     </div>

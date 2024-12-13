@@ -4,6 +4,7 @@ import RecipeResults from "@/components/recipe-search/RecipeResults";
 import RecipeSearchForm from "@/components/recipe-search/RecipeSearchForm";
 import { toast } from "react-hot-toast";
 import { apiRequest, getToken } from "@/lib/utils";
+import AIRecipeCard from "@/components/AIRecipeCard";
 
 const RecipeSearchPage = () => {
   const [recipes, setRecipes] = useState([]);
