@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "dishful-app",
+			"path": "../dishful-app"
+		}
+	],
+	"settings": {}
+}
