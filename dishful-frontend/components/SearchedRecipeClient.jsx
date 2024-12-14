@@ -64,7 +64,7 @@ const SearchedRecipeClient = ({ keyword }) => {
         ) : (
           <div className="flex flex-col items-center justify-center py-20 h-screen">
             <p className="text-lg font-semibold text-gray-600">
-              No recipe found for "{keyword}". Try refreshing or search again!
+              No recipe found for &quot;{keyword}&quot;. Try refreshing or search again!
             </p>
             {!loading && (
               <button
