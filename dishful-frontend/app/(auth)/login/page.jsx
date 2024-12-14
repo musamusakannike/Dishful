@@ -39,7 +39,7 @@ const Login = () => {
         email: formData.email,
         password: formData.password,
       });
-      console.log(response);
+      // console.log(response);
       setMessage({
         text: response.message || "Logged in successfully!",
         type: response.status === "success" ? "success" : "error",

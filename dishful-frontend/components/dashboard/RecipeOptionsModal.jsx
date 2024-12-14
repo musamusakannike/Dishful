@@ -14,8 +14,6 @@ const RecipeOptionsModal = ({ isVisible, onClose }) => {
           className="w-full py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition text-lg font-medium flex justify-center items-center"
           onClick={() => {
             onClose();
-            // Logic to navigate to "Generate from Meal Name"
-            console.log("Navigate to Generate from Meal Name");
           }}
         >
           Generate from Meal Name

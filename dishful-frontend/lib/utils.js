@@ -29,19 +29,19 @@ export const apiRequest = async (
     const response = await fetch(`${API_URL}/${endpoint}`, options);
 
     // Log the full response object and its status for debugging
-    console.log("Full Response Object:", response);
-    console.log("Status:", response.status);
+    // console.log("Full Response Object:", response);
+    // console.log("Status:", response.status);
 
     // Check if the response is OK before trying to parse JSON
     if (!response.ok) {
       // Log the text response when there's an error for more details
       const errorText = await response.json();
-      console.log("Error Response Text:", errorText);
+      // console.log("Error Response Text:", errorText);
       throw new Error(errorText?.message || "An error occurred");
     }
 
     const data = await response.json();
-    console.log("Response Data:", JSON.stringify(data, null, 2)); // Log parsed JSON data
+    // console.log("Response Data:", JSON.stringify(data, null, 2)); // Log parsed JSON data
     return data;
   } catch (error) {
     console.error("Fetch Error:", error);
