@@ -56,7 +56,8 @@ const AIRecipeCard = ({ recipe }) => {
             {recipe.foodLocation || "Location not available"}
           </Text>
         </View>
-      </View>{/* Save Button */}
+      </View>
+      {/* Save Button */}
       <Button title="Save Recipe" onPress={handleSave} color="#4CAF50" />
 
       <Text style={styles.additionalInfo}>
@@ -147,6 +148,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    marginBottom: 10,
   },
   title: {
     fontSize: 18,

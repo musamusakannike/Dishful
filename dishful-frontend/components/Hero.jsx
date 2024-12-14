@@ -64,7 +64,7 @@ export default function Hero() {
             whileTap={{ scale: 0.95 }}
             className="bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-3 px-6 rounded-full transition-colors duration-300"
           >
-            Learn More
+            Download APK
           </motion.a>
         </motion.div>
       </motion.div>
