@@ -138,7 +138,7 @@ const Login = () => {
             className="w-full px-4 py-2 mt-4 font-semibold text-white bg-green-500 rounded-md hover:bg-green-600 focus:outline-none focus:ring-4 focus:ring-green-400 flex justify-center items-center"
             disabled={loading}
           >
-            {loading ? <Loader2 size={20} color="#ffffff" /> : "Sign In"}
+            {loading ? <Loader2 size={20} color="#ffffff" className="animate__animated animate__infinite animate-spin" /> : "Sign In"}
           </button>
         </form>
 
