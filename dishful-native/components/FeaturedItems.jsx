@@ -137,6 +137,7 @@ const FeaturedSection = () => {
 
 const styles = StyleSheet.create({
   sectionContainer: {
+    paddingHorizontal: 3,
     paddingBottom: 10,
     backgroundColor: "#fff",
   },

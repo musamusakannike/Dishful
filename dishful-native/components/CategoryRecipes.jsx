@@ -211,6 +211,7 @@ export default CategoryRecipes;
 const styles = StyleSheet.create({
   container: {
     marginVertical: 16,
+    padding: 2,
   },
   header: {
     flexDirection: "row",

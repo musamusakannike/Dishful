@@ -56,7 +56,7 @@ const Dashboard = () => {
       <StatusBar style="dark" />
       <Header username={username} />
       <ScrollView
-        contentContainerStyle={{ padding: 16 }}
+        contentContainerStyle={{ padding: 0 }}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={handleRefresh} />
         }
